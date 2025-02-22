@@ -1,0 +1,58 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\Andrés\AppData\Local\Temp\idea2.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\Andrés\AppData\Local\Temp\idea2.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.1 (Oracle Corporation Java 23.0.1)
+[debug] Load.defaultLoad until apply took 185.9958ms
+[debug]           Load.loadUnit: plugins took 106.2007ms
+[debug]           Load.loadUnit: defsScala took 0.391ms
+[debug] [Loading] Scanning directory C:\Users\Andrés\Documents\UCM\Scala\Tarea\entregable\project
+[debug]             Load.loadUnit: mkEval took 7.1496ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Andrés\Documents\UCM\Scala\Tarea\entregable\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 43.4385 ms
+[info] loading settings for project entregable-build from plugins.sbt,idea2.sbt ...
+[debug]               Load.resolveProject(entregable-build) took 81.3124ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id entregable-build, base: C:\Users\Andrés\Documents\UCM\Scala\Tarea\entregable\project, plugins: List(<none>))) took 141.3627ms
+[debug] [Loading] Done in C:\Users\Andrés\Documents\UCM\Scala\Tarea\entregable\project, returning: (entregable-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 5021.4809ms
+[debug]           Load.loadUnit: cleanEvalClasses took 18.5123ms
+[debug]         Load.loadUnit(file:/C:/Users/Andrés/Documents/UCM/Scala/Tarea/entregable/project/, ...) took 5153.7239ms
+[debug]       Load.apply: load took 5431.3871ms
+[debug]       Load.apply: resolveProjects took 7.6721ms
+[debug]       Load.apply: finalTransforms took 153.9548ms
+[debug]       Load.apply: config.delegates took 20.1594ms
+[debug]       Load.apply: Def.make(settings)... took 997.215ms
+[debug]       Load.apply: structureIndex took 181.1755ms
+[debug]       Load.apply: mkStreams took 2.6116ms
+[info] loading project definition from C:\Users\Andrés\Documents\UCM\Scala\Tarea\entregable\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 10375.9014ms
+[debug]     Load.loadUnit: defsScala took 0.006ms
+[debug] [Loading] Scanning directory C:\Users\Andrés\Documents\UCM\Scala\Tarea\entregable
+[debug]       Load.loadUnit: mkEval took 0.4405ms
+[error] [C:\Users\Andrés\Documents\UCM\Scala\Tarea\entregable\build.sbt]:21: ')' expected but string literal found.
+[error] [C:\Users\Andrés\Documents\UCM\Scala\Tarea\entregable\build.sbt]:24: ')' expected but eof found.
+[debug] > Exec(loadFailed, None, None)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
